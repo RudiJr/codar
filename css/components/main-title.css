@@ -12,3 +12,17 @@
 .red {
     color: #D6000D;
 }
+
+.main-title.-second {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.60rem;
+    padding-top: 0;
+    padding-left: 0;
+    line-height: 3.40rem;   
+}
+
+.second {
+    color: #D6000D;
+    font-size: 3.80rem;
+}
