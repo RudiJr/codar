@@ -1,0 +1,12 @@
+.main-nav {
+    padding-top: 3rem;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.40rem;
+    font-weight: 400;
+    padding-right: 1.60rem;
+    line-height: 1rem;
+}

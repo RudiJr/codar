@@ -1,0 +1,23 @@
+.button {
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    background-color: #D6000D;
+    color: #FFF;
+    cursor: pointer;
+}
+.button.-nav {
+    font-size: 1.40rem;
+    font-weight: 700;
+    margin-right: 2rem;
+    height: 3.13rem;
+    width: 12.76rem;
+}
+
+.button.-main {
+    font-size: 1.40rem;
+    font-weight: 700;
+    height: 2.80rem;
+    width: 20rem;
+    margin-top: 3rem;
+}
