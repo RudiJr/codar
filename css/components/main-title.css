@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,500&display=swap');
+
+.main-title {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 4rem;
+}
+
+.red {
+    color: #D6000D;
+}
