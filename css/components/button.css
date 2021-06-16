@@ -6,6 +6,13 @@
     color: #FFF;
     cursor: pointer;
 }
+
+.button:hover {
+    background-color: #FFF;
+    color: #D6000D;
+    border: solid 2px #D6000D;
+}
+
 .button.-nav {
     font-size: 1.40rem;
     font-weight: 700;
@@ -20,4 +27,12 @@
     height: 2.80rem;
     width: 20rem;
     margin-top: 3rem;
+}
+
+.button.-form {
+    font-size: 1.30rem;
+    font-weight: 700;
+    width: 16rem;
+    height: 3.50rem;
+    margin-bottom: 10rem;
 }
