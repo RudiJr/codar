@@ -10,3 +10,7 @@
     padding-right: 1.60rem;
     line-height: 1rem;
 }
+
+.nav-items:hover {
+    color: #D6000D;
+}
