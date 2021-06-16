@@ -48,9 +48,12 @@
 
 .about-items::before {
     content: "";
-    background-image: url(https://rudijr.github.io/codar/assets/check-circle-fill.svg);
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    background: url("https://rudijr.github.io/codar/assets/check-circle-fill.svg");
     background-repeat: no-repeat;
-    margin-left: 40px;
+    padding-right: 1rem;
 }
 
 #form-input {
