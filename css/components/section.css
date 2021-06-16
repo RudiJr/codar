@@ -1,6 +1,7 @@
 .main-section {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20rem;
 }
 
 .main-image {
@@ -13,4 +14,33 @@
 .align {
     padding-top: 12rem;
     padding-right: 18rem;
+}
+
+/* ------------------------------------------------- */
+
+.main-section.-about {
+    padding-bottom: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+    padding-top: 6rem;
+}
+.about-items {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.30rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    
+}
+
+.main-image.-second {
+    padding: 0 8rem 4rem 0;
+}
+
+.about-items::before{
+    background-image: url(/assets/check-circle-fill.svg);
 }
