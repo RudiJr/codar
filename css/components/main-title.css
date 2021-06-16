@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,500&display=swap');
-
 .main-title {
     font-weight: 900;
     font-style: italic;
@@ -19,10 +18,39 @@
     font-size: 1.60rem;
     padding-top: 0;
     padding-left: 0;
-    line-height: 3.40rem;   
+    line-height: 3.40rem;
 }
 
 .second {
     color: #D6000D;
     font-size: 3.80rem;
+}
+
+.main-title.-form {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.40rem;
+    padding-top: 3rem;
+    padding-left: 0;
+    line-height: 3.60rem;
+}
+
+.main-title.-input {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.26rem;
+    padding-top: 0;
+    padding-left: 0;
+    line-height: unset;
+    padding-left: 1.81rem;
+}
+
+.main-title.-input::-moz-placeholder {
+    color: #000;
+    opacity: 0.8;
+}
+
+.main-title.-input::-webkit-input-placeholder {
+    color: #000;
+    opacity: 0.8;
 }

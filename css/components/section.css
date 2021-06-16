@@ -27,20 +27,37 @@
     flex-direction: column;
     padding-left: 8rem;
     padding-top: 6rem;
+    list-style: none;
 }
+
+.abt {
+    list-style: none;
+}
+
 .about-items {
     text-decoration: none;
     color: #000;
     font-size: 1.30rem;
     font-weight: 400;
     padding-bottom: 1rem;
-    
 }
 
 .main-image.-second {
     padding: 0 8rem 4rem 0;
 }
 
-.about-items::before{
-    background-image: url(/assets/check-circle-fill.svg);
+.about-items::before {
+    content: "";
+    background-image: url(https://rudijr.github.io/codar/assets/check-circle-fill.svg);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+
+#form-input {
+    border: 0;
+    width: 13.20rem;
+    height: 3.50rem;
+    margin-right: 0.50rem;
+    border-radius: 10px;
+    background-color: rgb(218, 213, 213);
 }
