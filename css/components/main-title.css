@@ -83,6 +83,46 @@
     line-height: 1.60rem;
 }
 
+.main-title.-footer {
+    font-weight: 700;
+    color: #FFF;
+    font-style: normal;
+    font-size: 2.40rem;
+    padding-top: 6rem;
+    padding-left: 10rem;
+    line-height: 3rem;
+    list-style: none;
+}
+
+.main-title.-footer.-main {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 4rem;
+    padding-top: 6rem;
+    padding-left: 0;
+    line-height: 2.20rem;
+}
+
+.main-title.-items {
+    font-weight: 400;
+    color: #FFF;
+    font-style: normal;
+    font-size: 1.40rem;
+    padding-top: 1rem;
+    padding-left: 0;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title.-items.-email {
+    text-decoration:underline;
+}
+
+.main-title.-items.-pd {
+    padding-top: 2.70rem;
+}
+
 
 
 

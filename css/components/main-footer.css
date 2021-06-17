@@ -1,0 +1,25 @@
+.main-footer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    padding-top: 1rem;
+    padding-left: 1.30rem;
+    padding-right: 1rem;
+}
+
+
