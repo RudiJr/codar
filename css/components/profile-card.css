@@ -1,0 +1,39 @@
+.profile-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18rem;
+    padding-bottom: 10rem;
+}
+
+.card {
+    background-color: rgb(209, 205, 205);
+    height: 200px;
+    width: 600px;
+    border-radius: 15px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.card.-left {
+    margin-left: 0;
+}
+
+.card.-right {
+    margin-right: 0;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    background-image: url(/assets/circle-fill.svg);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 100px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.txt {
+    position: relative;
+    top: -5.20rem;
+}
