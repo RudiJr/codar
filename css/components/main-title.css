@@ -54,3 +54,37 @@
     color: #000;
     opacity: 0.8;
 }
+
+.main-title.-xp {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.20rem;
+    padding-top: 0;
+    padding-left: 10rem;
+    line-height: 1.50rem;
+}
+
+.main-title.-name {
+    font-weight: 400;
+    font-style: normal ;
+    font-size: 2rem;
+    padding-top: 0.90rem;
+    padding-bottom: 0.20rem;
+    padding-left: 10rem;
+    line-height: 1.50rem;
+}
+
+.main-title.-job {
+    font-weight: 700;
+    font-style: normal ;
+    font-size: 1.20rem;
+    padding-top: 0;
+    padding-left: 10rem;
+    line-height: 1.60rem;
+}
+
+
+
+
+
+
