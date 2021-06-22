@@ -16,6 +16,7 @@
 
 .card.-left {
     margin-left: 0;
+    margin-bottom: 0;
 }
 
 .card.-right {
@@ -43,6 +44,21 @@
         width: 520px;
         margin-left: 4rem;
         margin-right: 4rem;
+    }   
+}
+
+@media only screen and (max-width: 1200px) {
+    .profile-card {
+        justify-content: unset;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 12rem;
     }
-    
+    .card {
+        width: 500px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 180px;
+        margin-bottom: 3rem;
+    }   
 }
