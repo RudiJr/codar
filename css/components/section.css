@@ -64,3 +64,14 @@
     border-radius: 10px;
     background-color: rgb(218, 213, 213);
 }
+
+@media only screen and (max-width: 1400px) {
+    .main-image {
+        width: 400px;
+        height: 350px;
+        padding-left: 6rem;
+    }
+    .align {
+        padding-right: 14rem;
+    }
+}
