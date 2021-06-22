@@ -64,3 +64,34 @@
     border-radius: 10px;
     background-color: rgb(218, 213, 213);
 }
+
+@media only screen and (max-width: 1400px) {
+    .main-image {
+        width: 400px;
+        height: 350px;
+        padding-left: 6rem;
+    }
+    .align {
+        padding-right: 14rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-image {
+        width: 370px;
+        height: 330px;
+        padding-left: 4rem;
+    }
+    .main-image.-second {
+        padding: 0 8rem 3rem 0;
+    }
+    .align {
+        padding-right: 8rem;
+    }
+    #form-input {
+        border: 0;
+        width: 9rem;
+        height: 3.50rem;
+     
+    }
+}
