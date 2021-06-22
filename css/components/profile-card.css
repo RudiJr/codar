@@ -25,7 +25,7 @@
 .card::before {
     content: "";
     display: block;
-    background-image: url(/assets/circle-fill.svg);
+    background-image: url(https://rudijr.github.io/codar/assets/circle-fill.svg);
     background-repeat: no-repeat;
     height: 90px;
     width: 100px;
