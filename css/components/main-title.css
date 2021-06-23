@@ -40,19 +40,18 @@
     font-style: normal;
     font-size: 1.26rem;
     padding-top: 0;
-    padding-left: 0;
-    line-height: unset;
     padding-left: 1.81rem;
+    line-height: unset;
 }
 
 .main-title.-input::-moz-placeholder {
     color: #000;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .main-title.-input::-webkit-input-placeholder {
     color: #000;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .main-title.-xp {
@@ -149,7 +148,7 @@
     }
 }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1200px) {
     .main-title.-input {
         font-size: 1.10rem;
         padding-left: 1.20rem;
@@ -173,5 +172,44 @@
     }
     .main-title.-items {
         font-size: 1.20rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .main-title {
+        padding-left: 0;
+    }
+    .main-title.-second {
+        text-align: center;
+        line-height: 3.20rem;
+    }
+    .second {
+        font-size: 4rem;
+    }
+    .main-title.-input {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.26rem;
+        padding-top: 0;
+        padding-left: 1.81rem;
+        line-height: unset;
+    }
+    .main-title.-footer {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .main-title.-footer.-main {
+        padding-top: 4rem;
+        padding-left: 0;
+        line-height: 1rem;
+    }
+    .main-title.-items {
+        font-size: 1.40rem;
+        padding-top: 1rem;
+        padding-left: 0;
+        line-height: 2rem;
+    }
+    .main-title.-items.-pd {
+        padding-top: 2rem;
     }
 }

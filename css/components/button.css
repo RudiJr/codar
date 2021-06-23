@@ -44,3 +44,24 @@
         height: 3.50rem;
     }
 }
+
+@media only screen and (max-width: 992px){
+    .button.-nav {
+        display: none;
+    }
+    .button.-main {
+        border-radius: 15px;
+        font-weight: 400;
+        height: 3.70rem;
+        width: 25rem;
+        margin-top: 2rem;
+        margin-left: 2.30rem;
+    }
+    .button.-form {
+        border-radius: 15px;
+        font-size: 1.32rem;
+        width: 17.20rem;
+        height: 3.80rem;
+    }
+    
+}

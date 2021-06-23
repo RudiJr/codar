@@ -14,3 +14,18 @@
 .nav-items:hover {
     color: #D6000D;
 }
+
+
+@media only screen and (max-width: 992px) {
+    .main-nav {
+        padding-top: 1rem;
+    }
+    .nav-items {
+        padding-right: 0;
+        line-height: 1rem;
+    }
+    .nav-items.-center {
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+}
