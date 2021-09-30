@@ -29,7 +29,10 @@
     .footer-items {
         display: flex;
         flex-direction: column;
-        padding-bottom: 8rem;
+        padding-bottom: 2rem;
+    }
+    .items.-fb {
+    padding-left: 0;
     }
    
 }
